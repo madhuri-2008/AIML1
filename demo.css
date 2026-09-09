@@ -1,0 +1,31 @@
+    
+        /* h1{
+            background-color: beige;
+        }
+        p{
+            background-color: brown;
+        }*/
+         
+
+        *{
+            background-color:bisque;
+        }
+
+        h1{
+            background-color:brown;
+        }
+
+        p,h1{
+            background-color:blue;
+        }
+
+        .heading{
+            background-color:olive;
+        }
+        .info{
+            background-color: aquamarine;
+        }
+
+        #a{
+            background-color: goldenrod;
+        }
