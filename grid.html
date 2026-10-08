@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color:rosybrown;
+            height:500px;
+            padding:20px;
+            font-size:30px;
+            display:grid;
+            gap:20px;
+            /* grid-template-columns: 100px 200px 100px;
+            grid-template-rows: 100px 150px;
+            grid-template-columns:1fr 2fr 1fr;
+            grid-template-rows:1fr 2fr; */
+            grid-template-columns: repeat(2,2fr);
+            /* justify-content: repeat; */
+        }
+        .child1{
+            background-color:thistle;
+        }
+        .child2{
+            background-color:powderblue;
+        }
+        .child3{
+            background-color:lightpink;
+        }
+        .child4{
+            background-color:indianred;
+        }
+        .child5{
+            background-color:lightgray;
+        }
+        .child6{
+            background-color:lemonchiffon;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="child1">madhuri</div>
+    <div class="child2">madhuri</div>
+    <div class="child3">madhuri</div>
+    <div class="child4">madhuri</div>
+    <div class="child5">madhuri</div>
+    <div class="child6">madhuri</div>
+    </div>
+</body>
+</html>
